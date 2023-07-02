@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.header-menu{
+    /* height: 5rem; */
+    position: fixed;
+    box-sizing: border-box;
+    background-color:#fefefefc;
+    overflow: hidden;
+    width: 100%;
+    z-index: 5;
+}
+::selection{
+    background-color: rgb(218, 218, 250);
+}
+.logo-img{
+    width: 120px;
+    height:40;
+    cursor: pointer;
+}
+   
+.nav-bar{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 4rem;
+    /* height: 4rem; */
+    
+}
+.nav-menu-list li{
+    list-style: none;
+    padding: 0 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-menu-list li a{
+    text-decoration: none;
+    color: #999797;
+}
+.nav-menu-list li .tour{
+    color: black;
+}
+.nav-menu-list{
+    width:70%;
+    display: flex;
+    align-items: center;
+}
+.download button:hover{
+       transform: scale(1.1);   
+
+}
+.download button{
+    overflow: hidden;
+    transition: 3s, ease-in-out;
+    width: 135px;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 19px;
+    background-color: #04ddb2;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s, ease-in-out;
+    border: none;
+    padding: 13px;
+}
+.hero-sec{
+    position: absolute;
+    margin-top: 3rem;
+}
+.hero-content{
+    margin: 6rem;
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+
+}
+.hero-title span{
+    color: #04ddb2;
+}
+.hero-content p{
+    font-size: 26px;
+    margin-bottom: 2.5rem;
+    color: #3d3c3c;
+}
+.hero-video img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+.video-container:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.video-container{
+    overflow: hidden;
+    transition: 4s, ease-in-out;
+    z-index: 2;
+}
+.train{
+    text-align: center;
+    margin: 4rem 0;
+}
+.train h1{
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+    color: rgb(51, 50, 50);
+}
+.download2 button:hover{
+    transform: scale(1.1);
+}
+.download2 button{
+    overflow: hidden;
+    transition: 0.2s, ease;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 24px;
+    background-color: #04ddb2;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s, ease-in-out;
+    border: none;
+    padding: 13px;
+}
+.footer-sec{
+    margin: 4rem 4rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.lobe-list li{
+    list-style: none;
+    padding-top: 20px;
+
+}
+.lobe-list li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-sec .lobe{
+    font-size: 18px;
+    color: rgb(73, 72, 72);
+
+}
+.social-links .ri-chat-3-fill:hover{
+      transform: scale(1.1);
+}
+.social-links{
+    transition: .2,ease;
+    padding-top: 20px;
+    font-size: 30px;
+    color:#04ddb2;
+    padding-left: 5px;
+}
+.logo-img-footer{
+    margin-left: -10px;
+}
+
+.lobe-item{
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+}
